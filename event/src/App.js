@@ -19,7 +19,7 @@ function App() {
  
   useEffect(() => {
     OneSignal.init({
-      appId: "d3ddaf55-a721-4a08-9abd-9a99cc899ac5",
+      appId: "",
     });
   }, []);
 
