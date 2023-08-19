@@ -1,0 +1,150 @@
+.bigcard{
+ width: 95vw;
+ margin: auto;
+ margin-top: 2.5vw;
+
+ /* font-family: 'Caveat', cursive; */
+ /* color: white; */
+}
+
+.big{
+    /* border: 1px solid rgb(40, 34, 34); */
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px
+}
+
+.heading-club-name{
+    margin: 1vw;
+    padding: 1vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    /* font-weight: bold; */
+    /* color: white; */
+}
+
+.bigcard-img{
+    width: 95vw;
+}
+
+.inf{
+    margin: 1vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.gyaan-about-event{
+    margin: 1vw;
+    padding: 1vw;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    font-family: inherit; 
+}
+
+.bigcard-ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.bigcard-li{
+    margin: 5px;
+    padding: 5px;
+}
+
+.bigcard-img{
+    width: 90vw;
+    /* height: 90vh; */
+    object-fit: contain;
+}
+
+.bigcard-da-mai-button{
+  width: 86vw;  
+  background-color: #2069c6;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: large;
+}
+
+.bigcard-da-mai-buttontop{
+    border: none;
+    background: white;
+}
+
+.bigcard-da-mai-buttontop-right{
+    border: none;
+    background: white;
+    text-align: right;
+    margin-right: 2vw;
+    
+}
+
+.top-se{
+    width: 80vw;
+    text-align: right;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+.top-right-share{
+    text-align: right;
+    margin: 2vw ;
+    margin-top: 0;
+}
+
+.btnBigcard{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.topback{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin: 5px;
+    /* background-color: white; */
+    /* background: linear-gradient(to right, #1e1f20 , rgb(23, 29, 34)); */
+}
+
+.bigcard-da-mai-button:hover{
+    background-color: rgb(15, 69, 127);
+    transition: 0.4s;
+}
+
+.bigcard-da-mai-button:active{
+    background-color: rgb(49, 134, 226);
+    transition: 0.4s;
+}
+
+  @media screen and (min-width: 800px) and (max-width: 1700px){
+    .bigcard-img{ 
+    height: 90vh;
+    object-fit: contain;
+    }
+    .bigcard-da-mai-button{
+        width: 90vw;
+    }
+    .inf{
+        font-size: larger;
+    }
+    .heading-club-name{
+        font-size: x-large;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+   .heading-club-name{
+    margin-bottom: 3%;
+   } 
+  }

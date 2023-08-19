@@ -1,0 +1,30 @@
+  .club-list {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  .club-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .club-list-title {
+    margin: 0;
+  }
+  
+  .club-list-icon-open,
+  .club-list-icon-close {
+    font-weight: bold;
+  }
+  
+  .club-list-content {
+    padding: 0.5rem;
+    background-color: #fff;
+  }
+  

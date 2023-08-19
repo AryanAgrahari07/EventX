@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@800&display=swap');
+
+body{
+/* background-color: #ffffff */
+/* background: linear-gradient(to right, #0d0c0c , rgb(28, 29, 29)); */
+/* background: linear-gradient(to right, #1e1f20 , rgb(23, 29, 34)); */
+/* background-color:darken(#252B37, 4%); */
+
+}
+
+.description-value {
+    white-space: pre-line;
+  }
+
+.formEvent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    /* font-family: 'Caveat', cursive; */
+}
+.content{
+    border: 2px solid black;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(120 166 231);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 2px;
+}
+
+.input-value{
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(225, 213, 213);
+}
+.description-value{
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(225, 213, 213);
+}
+.btnxx{ 
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    /* background-color: rgb(225, 213, 213); */
+    background-color: white;
+    margin-left: 24%;
+    margin-top: 4%;
+}
+.btnxx:hover{
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+.btnxx:active{
+    background-color: rgb(129, 125, 125);
+    color: rgb(3, 3, 3);
+}
+
+@media screen and (max-width : 600px) {
+    .formEvent{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .content{
+        width: 95vw;
+        margin: auto;
+        font-size: small;
+        margin-top: 8%;
+    }
+}

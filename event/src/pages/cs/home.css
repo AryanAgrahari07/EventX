@@ -1,0 +1,46 @@
+.dashboard-h1{
+  text-align: center;
+  /* font-family: 'Caveat', cursive; */
+  font-size: larger;
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(145, 46, 46) , rgb(29, 76, 142));
+  color: white;
+  padding: 1%;
+  margin: 0;  
+}
+body{
+  background-color: rgb(247, 247, 247);
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard-h1{
+    padding: 3%;
+  }
+}
+
+.div-login{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+  background-color: rgb(247, 247, 247);
+ 
+  /* background-color: rgb(230, 227, 227); */
+   /* background: linear-gradient(to right, #1e1f20 , rgb(23, 29, 34)); */
+}
+.second-login{
+    display: flex;
+    margin: 8px 15px 0px 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+    align-items: flex-end;
+    background-color: rgb(181, 52, 52);
+}
+.second-login:hover{
+  background-color: rgba(213, 0, 0, 0.727); 
+}
